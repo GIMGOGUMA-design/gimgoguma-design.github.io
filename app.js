@@ -1,6 +1,6 @@
 'use strict';
 (() => {
-  const HASH = '0c16820b93a8c88c45a0e0c9fd572e009787af770985a428a228227e2f113f3e';
+  const HASH = '88dfced00f06fbfda9508a1d57d3380418209cede84b51d58afaa6eaf1f1ae4b';
   const KEY = 'tradingdeskpro-marketing-language';
   const strings = [...document.querySelectorAll('[data-en]')];
   const images = [...document.querySelectorAll('[data-alt-en]')];
@@ -41,7 +41,7 @@
     button.setAttribute('aria-label', lang === 'ko' ? 'Switch to English' : '한국어로 전환');
     document.getElementById('menu-toggle').setAttribute('aria-label', lang === 'ko' ? '메뉴 열기' : 'Open navigation');
     document.title = lang === 'ko' ? 'TradingDeskPro — 더 넓게 보고, 더 명확하게.' : 'TradingDeskPro — A wider view. A clearer perspective.';
-    document.querySelector('meta[name="description"]').content = lang === 'ko' ? '차트 분석부터 모의 거래와 거래 기록까지. TradingDeskPro 1.8.1 — Free 2개, PLUS 4개, Max 5개 차트와 50개 언어를 지원하는 Windows 트레이딩 워크스페이스.' : 'From analysis to paper trading and review. TradingDeskPro 1.8.1 for Windows — 2 charts on Free, 4 on PLUS, 5 on Max, and 50 interface languages.';
+    document.querySelector('meta[name="description"]').content = lang === 'ko' ? '차트 분석부터 모의 거래와 거래 기록까지. TradingDeskPro 1.8.2 — Free 2개, PLUS 4개, Max 5개 차트와 50개 언어를 지원하는 Windows 트레이딩 워크스페이스.' : 'From analysis to paper trading and review. TradingDeskPro 1.8.2 for Windows — 2 charts on Free, 4 on PLUS, 5 on Max, and 50 interface languages.';
     document.querySelectorAll('[data-checkout-plan]').forEach(link => { const url = new URL(link.href); url.searchParams.set('lang', lang); link.href = url.href; });
     updateLayout(currentLayout);
     if (persist) { try { localStorage.setItem(KEY, lang); } catch {} }

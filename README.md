@@ -1,6 +1,6 @@
 # TradingDeskPro public introduction site
 
-Windows 1.8.1 Stable. Static HTML/CSS/JS for GitHub Pages.
+Windows 1.8.2 Stable. Static HTML/CSS/JS for GitHub Pages.
 Only public marketing source and the existing synthetic chart-preview images.
 Application/server source, account records, model files and secrets are excluded.
 
@@ -18,4 +18,4 @@ Checkout links preserve plan/language hints and never initiate purchases.
 The separate private account service is unchanged by this static publication.
 Historical chart-preview captures are labelled with their original version.
 
-1.8.1 refines rounded native controls, tonal selection fills and clean panel surfaces. Layout, custom palettes and financial authorization are retained.
+1.8.2 groups workspace selection, feature search and chart counts in one scrollable row. The row follows the active theme and marks the selected chart count with a subtle underline.

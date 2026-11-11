@@ -19,3 +19,5 @@ html[lang=en] h1{font-size:clamp(43px,4.3vw,61px);letter-spacing:-3px;line-heigh
 .sharing-release{padding-top:80px}.sharing-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}.sharing-grid article{border-top:1px solid var(--line);padding:28px 6px;min-width:0}.sharing-grid h3{font-size:21px;line-height:1.5;letter-spacing:-.5px;margin:18px 0}.sharing-grid p{font-size:13px;line-height:1.95;color:var(--muted);margin-bottom:20px}.sharing-grid a{font-size:12px;text-decoration:underline}@media(max-width:850px){.sharing-grid{grid-template-columns:1fr;gap:10px}.sharing-release{padding-top:60px}.sharing-grid article{padding:24px 0}.sharing-grid h3{font-size:20px}.sharing-grid p{font-size:12px}}
 
 .plan-plus{border-color:#70b9df}.plan-new{font-size:11px;letter-spacing:.08em;color:var(--green);vertical-align:middle}.plan-grid .plan-card{min-width:0}.plan-grid .price{font-size:clamp(30px,3.1vw,42px)}
+
+.launch-demo video { display: block; width: 100%; height: auto; border: 1px solid #34453d; border-radius: 16px; background: #101a22; }
